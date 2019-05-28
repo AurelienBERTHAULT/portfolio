@@ -1,0 +1,14 @@
+:host {
+    display: block;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    right: calc((100vw - 1024px) / 2);
+    width: 700px;
+}
+.menu-item {
+    line-height: 50px;
+    text-align: right;
+    color: white;
+}
