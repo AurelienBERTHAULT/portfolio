@@ -1,0 +1,19 @@
+a,
+a:active,
+a:hover,
+a:link,
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+a {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+a:hover {
+    border-bottom: 3px solid #00adff;
+}

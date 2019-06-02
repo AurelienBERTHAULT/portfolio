@@ -1,0 +1,19 @@
+:host {
+    background-image: url("../../assets/images/programming-background.png");
+    background-position: center center;
+    background-size: cover;
+    height: 60vh;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.overlay {
+    background-color: #222222;
+    bottom: 0;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    right: 0;
+    top: 0;
+}

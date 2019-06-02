@@ -1,0 +1,10 @@
+main {
+    margin: 0 auto;
+    width: 1024px;
+}
+@media (max-width: 1024px) {
+    main {
+        padding: 0 10px;
+        width: calc(100% - 20px);
+    }
+}

@@ -1,0 +1,18 @@
+h2 {
+    color: #888888;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.timeline {
+    background-color: #cccccc;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 10px;
+}

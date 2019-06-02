@@ -1,0 +1,12 @@
+<h2 id="skills">Compétences</h2>
+
+<div class="wrapper">
+    <p>Pratique courante</p>
+    <ab-skill *ngFor="let skill of getSkillsByLevel(3)" [logo]="skill.logo" [name]="skill.name" [level]="skill.level" [projects]="skill.projects"></ab-skill>
+    <p>Pratique occasionnelle</p>
+    <ab-skill *ngFor="let skill of getSkillsByLevel(2)" [logo]="skill.logo" [name]="skill.name" [level]="skill.level" [projects]="skill.projects"></ab-skill>
+    <p>Connaissances théoriques</p>
+    <ab-skill *ngFor="let skill of getSkillsByLevel(1)" [logo]="skill.logo" [name]="skill.name" [level]="skill.level" [projects]="skill.projects"></ab-skill>
+    <p>Connaissances que j'aimerais creuser prochainement</p>
+    <ab-skill *ngFor="let skill of getSkillsByLevel(0)" [logo]="skill.logo" [name]="skill.name" [level]="skill.level" [projects]="skill.projects"></ab-skill>
+</div>

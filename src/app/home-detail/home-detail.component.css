@@ -1,0 +1,14 @@
+:host {
+    display: table-row;
+    line-height: 38px;
+}
+span {
+    display: table-cell
+}
+.label {
+    text-transform: uppercase;
+    color: #999999;
+}
+.value {
+    padding-left: 20px;
+}

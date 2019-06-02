@@ -1,0 +1,11 @@
+<h2 id="experiences">Expériences</h2>
+
+<div class="wrapper">
+  <div class="timeline"></div>
+  <ng-template ngFor let-experience [ngForOf]="experiences">
+    <ab-timeline-year *ngIf="experience.year; else displayExperience" [year]="experience.year"></ab-timeline-year>
+    <ng-template #displayExperience>
+      <ab-experience [type]="experience.type" [place]="experience.place" [missions]="experience.missions"></ab-experience>
+    </ng-template>
+  </ng-template>
+</div>

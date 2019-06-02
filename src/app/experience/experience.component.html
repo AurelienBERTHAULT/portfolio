@@ -1,0 +1,5 @@
+<div class="timeline-point"></div>
+
+<p class="place">{{ place }}<span class="type"> - {{ type }}</span></p>
+
+<ab-mission *ngFor="let mission of missions" [label]="mission.label" [duration]="mission.duration" [details]="mission.details"></ab-mission>
