@@ -11,7 +11,7 @@ export class SkillComponent implements OnInit {
   @Input() name;
   @Input() level;
   @Input() projects;
-  private colorClass;
+  public colorClass;
   
   constructor() { }
 

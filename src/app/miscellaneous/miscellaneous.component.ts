@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MiscellaneousComponent implements OnInit {
 
-  private drivingLicenses;
-  private passions;
+  public drivingLicenses;
+  public passions;
 
   constructor() { 
     this.drivingLicenses = [
