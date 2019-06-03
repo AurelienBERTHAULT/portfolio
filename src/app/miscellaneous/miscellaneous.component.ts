@@ -16,12 +16,12 @@ export class MiscellaneousComponent implements OnInit {
       "bateau (option côtière)"
     ]
     this.passions = [
-      "Football",
-      "Jeux Vidéo",
-      "Mangas",
-      "Mode",
-      "Romans",
-      "Séries"
+      "football",
+      "jeux vidéo",
+      "mangas",
+      "mode",
+      "romans",
+      "séries TV"
     ]
   }
 

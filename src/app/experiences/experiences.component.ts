@@ -48,7 +48,7 @@ export class ExperiencesComponent implements OnInit {
           {
             label: "Développement du site vitrine d'un commerce",
             duration: "4 mois",
-            details: "???"
+            details: "Bébé d'Amour, magasin d'article de puériculture sur Troyes m'a proposé lors d'un stage de refaire leur site vitrine en PHP et d'intégrer une fonctionnalité de gestion de liste de naissance."
           }
         ]
       },
@@ -73,7 +73,7 @@ export class ExperiencesComponent implements OnInit {
           {
             label: "Développement d'une Application Web Flex",
             duration: "6 mois",
-            details: "???"
+            details: "Eco-Compteur fournit aux municipalités, aux gestionnaires de parcs et autres structures accueillant du public un large éventail de capteurs permettant de calculer de façon précise la fréquentation d'un lieu, qu'il s'agisse de compteur le nombre de piéton sur un trottoir, de vélo sur une piste cyclable ou bien de véhicule passant dans une rue. Afin que ses clients puissent consulter les statistiques remontées, Eco-Compteur met à leur disposition plusieurs interfaces web. C'est sur la principale d'entre elles : \"Eco-visio\" (développée en Flex) que j'ai été amené à apporter de nouvelles fonctionnalités."
           }
         ]
       },
@@ -134,7 +134,7 @@ export class ExperiencesComponent implements OnInit {
           {
             label: "Développement d'un CMS Angular 2+",
             duration: "30 mois (mission en cours)",
-            details: ""
+            details: "La Business Unit \"Printel\" est un acteur historique sur le marché de l'attribution des places pour le passage du permis de conduire, l'équipe du Luxembourg a désormais intégré cette BU et dans une volonté de diversification de l'activité, nous développons un CMS Angular 2+ afin de fournir aux auto-écoles aujourd'hui et aux autres TPE demain leur propre site web configurable en quelques clics."
           }
         ] 
       },

@@ -22,8 +22,11 @@ export class SkillsComponent implements OnInit {
       {logo:"", name:"HTML", level:3, projects: []},
       {logo:"", name:"Ionic", level:3, projects: []},
       {logo:"", name:"JS", level:3, projects: []},
+      {logo:"", name:"MySQL", level:3, projects: []},
+      {logo:"", name:"OneSignal", level:3, projects: []},
       {logo:"", name:"PHP", level:3, projects: []},
-      {logo:"", name:"SQL", level:3, projects: []},
+      {logo:"", name:"Responsive Design", level:3, projects: []},
+      {logo:"", name:"TypeScript", level:3, projects: []},
 
       //pratique occasionnelle      
       {logo:"", name:"Anglais (Bulats 90)", level:2, projects: []},
@@ -47,9 +50,17 @@ export class SkillsComponent implements OnInit {
       {logo:"", name:"Protractor", level:1, projects: []},
 
       //à découvrir
+      {logo:"", name:"DevOps", level:0, projects: []},
+      {logo:"", name:"Express", level:0, projects: []},
       {logo:"", name:"Jekyll", level:0, projects: []},
       {logo:"", name:"Karma", level:0, projects: []},
       {logo:"", name:"Méthodes Agiles", level:0, projects: []},
+      {logo:"", name:"MongoDB", level:0, projects: []},
+      {logo:"", name:"Node.js", level:0, projects: []},
+      {logo:"", name:"PostgreSQL", level:0, projects: []},
+      {logo:"", name:"RxJS", level:0, projects: []},
+      {logo:"", name:"Webpack", level:0, projects: []},
+      {logo:"", name:"Web Workers", level:0, projects: []},
     ]
   }
 
