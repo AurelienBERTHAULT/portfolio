@@ -12,3 +12,6 @@ span {
 .value {
     padding-left: 20px;
 }
+@media (max-width: 550px) {
+    span { display: block }
+}
