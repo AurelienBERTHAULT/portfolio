@@ -5,11 +5,12 @@
     display: block;
     margin: 40px auto 0;
     position: relative;
+    padding-bottom: 40px;
 }
 img {
     height: 300px;
     margin: 40px;
-    margin-top: -150px;
+    margin-top: -170px;
     position: absolute;
     top: 50%;
     width: auto;

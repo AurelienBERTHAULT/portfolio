@@ -1,0 +1,11 @@
+:host {
+    background-color: #00adff;
+    border-radius: 0 0 2px 2px;
+    bottom: 0;
+    color: #ffffff;
+    height: 40px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}

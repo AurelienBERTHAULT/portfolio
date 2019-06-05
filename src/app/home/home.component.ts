@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
 
   constructor() {
     this.details = [
-      {label:"age", value:"29"},
+      {label:"age", value:"29 ans"},
       {label:"adresse", value:"54190 Villerupt, FR"},
       {label:"e-mail", value:"aurelien.berthault@gmail.com"},
       {label:"employeur", value:"Interact-IV.com Lux (Esch-sur-Alzette, LU)"}

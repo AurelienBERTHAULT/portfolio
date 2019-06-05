@@ -15,6 +15,8 @@ import { MissionComponent } from './mission/mission.component';
 import { TimelineYearComponent } from './timeline-year/timeline-year.component';
 import { MiscellaneousComponent } from './miscellaneous/miscellaneous.component';
 import { FooterComponent } from './footer/footer.component';
+import { SocialNetworksComponent } from './social-networks/social-networks.component';
+import { SocialNetworkComponent } from './social-network/social-network.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { FooterComponent } from './footer/footer.component';
     MissionComponent,
     TimelineYearComponent,
     MiscellaneousComponent,
-    FooterComponent
+    FooterComponent,
+    SocialNetworksComponent,
+    SocialNetworkComponent
   ],
   imports: [
     BrowserModule
